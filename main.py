@@ -8,9 +8,6 @@ from localDecomp import *
 from spiral import *
 from scipy.io import savemat
 
-B = BoolSort()
-Z = IntSort()
-
 orbit = np.loadtxt('orbit.txt')
 card = 6
 
